@@ -1,10 +1,68 @@
-[2024-07-04 18:59:39] ==========New session============
-[2024-07-04 18:59:39] Server started at 127.0.0.1:12345
-[2024-07-04 18:59:55] ==========New session============
-[2024-07-04 18:59:55] Server started at 127.0.0.1:12345
-[2024-07-04 19:00:58.%f] ==========New session============
-[2024-07-04 19:00:58.%f] Server started at 127.0.0.1:12345
-[2024-07-04 19:01:51] ==========New session============
-[2024-07-04 19:01:51] Server started at 127.0.0.1:12345
-[2024-07-04 19:02:16] ==========New session============
-[2024-07-04 19:02:16] Server started at 127.0.0.1:12345
+[2024-07-06 07:08:32] ============================================New session========================================
+[2024-07-06 07:08:32] Server started at 127.0.0.1:12345
+[2024-07-06 07:08:41] Connection from 127.0.0.1:8001
+[2024-07-06 07:08:41] Connection from 127.0.0.1:8002
+[2024-07-06 07:08:41] Connection from 127.0.0.1:8003
+[2024-07-06 07:08:41] Connection from 127.0.0.1:8004
+[2024-07-06 07:08:41] Received request from 127.0.0.1:8001: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Response sent to 127.0.0.1:8001: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Received request from 127.0.0.1:8002: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Response sent to 127.0.0.1:8002: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Connection from 127.0.0.1:8005
+[2024-07-06 07:08:41] Received request from 127.0.0.1:8003: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Response sent to 127.0.0.1:8003: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Received request from 127.0.0.1:8004: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Response sent to 127.0.0.1:8004: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Received request from 127.0.0.1:8005: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Response sent to 127.0.0.1:8005: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:48] Received request from 127.0.0.1:8003: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:48] Response sent to 127.0.0.1:8003: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:48] Received request from 127.0.0.1:8001: GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:48] Response sent to 127.0.0.1:8001: HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:49] Connection closed with 127.0.0.1:8002
+[2024-07-06 07:08:49] Connection closed with 127.0.0.1:8004
+[2024-07-06 07:08:49] Connection closed with 127.0.0.1:8005
+[2024-07-06 07:08:56] Connection closed with 127.0.0.1:8001
+[2024-07-06 07:08:56] Connection closed with 127.0.0.1:8003

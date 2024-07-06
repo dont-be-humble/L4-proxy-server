@@ -1,7 +1,7 @@
 import time
 import random
 import threading
-from client import Client
+from client.client import Client, log_message
 
 def handle_client(client):
     while True:
@@ -9,13 +9,14 @@ def handle_client(client):
         time.sleep(random.randint(5, 10))
 
 if __name__ == "__main__":
-    clients_info = [("192.168.1.1", 8001),
-                    ("192.168.1.2", 8001),
-                    ("192.168.1.3", 8001),
-                    ("192.168.1.4", 8001),
-                    ("192.168.1.5", 8001)]
+    log_message("=============================================New testing started========================================")
+    clients_info = [('127.0.0.1', 12345, "0.0.0.0", 8001),
+                    ('127.0.0.1', 12345, "0.0.0.0", 8002),
+                    ('127.0.0.1', 12345, "0.0.0.0", 8003),
+                    ('127.0.0.1', 12345, "0.0.0.0", 8004),
+                    ('127.0.0.1', 12345, "0.0.0.0", 8005)]
     
-    clients = [Client(ip, port) for ip, port in clients_info]
+    clients = [Client(server_ip, server_port, client_ip, client_port) for server_ip, server_port, client_ip, client_port in clients_info]
 
     # set up connection
     for client in clients:

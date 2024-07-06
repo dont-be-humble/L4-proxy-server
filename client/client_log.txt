@@ -1,0 +1,111 @@
+[2024-07-06 07:08:41] =============================================New testing started========================================
+[2024-07-06 07:08:41] Connected to server at ('127.0.0.1', 12345) from client at ('0.0.0.0', 8001)
+[2024-07-06 07:08:41] Connected to server at ('127.0.0.1', 12345) from client at ('0.0.0.0', 8002)
+[2024-07-06 07:08:41] Connected to server at ('127.0.0.1', 12345) from client at ('0.0.0.0', 8003)
+[2024-07-06 07:08:41] Connected to server at ('127.0.0.1', 12345) from client at ('0.0.0.0', 8004)
+[2024-07-06 07:08:41] Connected to server at ('127.0.0.1', 12345) from client at ('0.0.0.0', 8005)
+[2024-07-06 07:08:41] Sent request from 8001 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Received response from ('127.0.0.1', 12345) to 8001: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Sent request from 8003 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Sent request from 8004 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Received response from ('127.0.0.1', 12345) to 8004: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Sent request from 8002 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Received response from ('127.0.0.1', 12345) to 8002: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Sent request from 8005 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:41] Received response from ('127.0.0.1', 12345) to 8005: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:41] Received response from ('127.0.0.1', 12345) to 8003: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:48] Sent request from 8003 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:48] Received response from ('127.0.0.1', 12345) to 8003: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:48] Sent request from 8001 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:48] Received response from ('127.0.0.1', 12345) to 8001: 
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Hello, world!
+[2024-07-06 07:08:50] Sent request from 8004 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:50] Received response from ('127.0.0.1', 12345) to 8004: 
+
+[2024-07-06 07:08:51] Sent request from 8005 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:51] Sent request from 8002 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:51] Received response from ('127.0.0.1', 12345) to 8005: 
+
+[2024-07-06 07:08:51] Received response from ('127.0.0.1', 12345) to 8002: 
+
+[2024-07-06 07:08:57] Sent request from 8003 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:57] Received response from ('127.0.0.1', 12345) to 8003: 
+
+[2024-07-06 07:08:58] Sent request from 8001 to ('127.0.0.1', 12345): 
+GET / HTTP/1.1
+Host: 127.0.0.1
+
+Hi
+[2024-07-06 07:08:58] Received response from ('127.0.0.1', 12345) to 8001: 
+
